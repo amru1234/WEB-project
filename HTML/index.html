@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Travel Form</title>
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <img class="bg" src="campus_view.jpg" alt="SSIT Nagpur">
+    <div class="container">
+      <center>
+        <h1><i>Welcome to SSIT Nagpur US Trip<i></h1><br>
+            <p><i>Enter your details and submit this forms to confirm your participation in the trip</i></p>
+            <br><p id="demo"><i>Thank you for submitting your form. we are happy to see you joining us for the US trip</i></p>
+        </center>
+        <form action="index.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="text" name="age" id="age" placeholder="Enter your Age">
+            <input type="text" name="gender" id="gender" placeholder="Enter your gender">
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <input type="phone" name="phone" id="phone" placeholder="Enter your phone">
+            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter any other information here"></textarea>
+            <button class="btn">Submit</button> 
+        </form>
+      
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
